@@ -1,18 +1,18 @@
 body, blog{
     height: 100%;
-    margin: 0px;
+    margin: px;
 }
 body{
-    background-color: grey;
+    background-color: rgb(255, 555, 128),; /* Fully opaque */;
 }
 
 nav li{
-    display: inline;
-    margin: 20px;
+    display: inline-block;
+    margin: 50px;
 }
 
 nav ul{
-    background-color: lightslategray;
+    background-color: rgb(117, 190, 218, 0.5); /* 50% transparent */
     margin: 0;
     list-style: none;
     width: 100%;
@@ -22,7 +22,7 @@ nav ul{
 
 nav{
     display: block;
-    color: white;
+    color: orangered;
 }
 
 nav a{
@@ -31,14 +31,14 @@ nav a{
 }
 
 nav a:hover{
-    color: white;
+    color: yellow;
 }
 
 .hero-image{
     background-image:url("../images/Cape\ Town.JPG");
     height: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 3contain;
     background-position: center;
     position: relative;
 }
@@ -62,7 +62,7 @@ nav a:hover{
 
 #side{
     width: 20%;
-    float: right;
+    float: left;
     height: 100%;
     padding: 20px;
 }
@@ -87,7 +87,7 @@ nav a:hover{
 }
 #profile-details{
     margin-right: 30px;
-    text-align: center;
+    text-align: justify;
 }
 
 .side-articles, .main-articles{
@@ -107,7 +107,7 @@ nav a:hover{
 }
 
 form{
-    margin-top:20px;
+    margin: top 1em;;
 }
 
 textarea.input{
@@ -123,7 +123,7 @@ textarea.input{
 
 footer{
     width: 100%;
-    background-color: blanchedalmond;
+    background-color:rgb(117, 190, 218, 0.5); /* 50% transparent */;
     height: 5vh;
     margin-top: 0px;
 }
